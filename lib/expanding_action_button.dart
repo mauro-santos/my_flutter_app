@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 @immutable
 class ExpandingActionButton extends StatelessWidget {
   const ExpandingActionButton({
+    super.key,
     required this.directionInDegrees,
     required this.maxDistance,
     required this.progress,

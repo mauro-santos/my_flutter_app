@@ -31,9 +31,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  final int _counter = 0;
   static const _actionTitles = ['Create Post', 'Upload Photo', 'Upload Video'];
 
+  /*
   void _incrementCounter() {
     setState(() {
       _counter++;
@@ -45,6 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter--;
     });
   }
+  */
 
   void _showAction(BuildContext context, int index) {
     showDialog<void>(
